@@ -62,10 +62,19 @@
             //                    |     |     |    |                  |     |     |     |
 
             bindings = <
-&trans          &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6    &kp F7    &kp F8  &kp F9     &kp F10  &trans
-&kp LEFT_SHIFT  &kp C_PREV    &kp C_NEXT    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP        &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans   &trans
-&kp LEFT_ALT    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans    &trans    &trans  &trans     &trans   &trans
+&trans          &kp F1        &kp F2        &kp F3        &kp F4        &kp F5          &kp F6    &kp F7    &kp F8  &kp F9     &kp F10        &trans
+&kp LEFT_SHIFT  &kp C_PREV    &kp C_NEXT    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_PP        &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &kp PAGE_UP    &kp HOME
+&kp LEFT_ALT    &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &trans    &trans    &trans  &trans     &kp PAGE_DOWN  &kp END
                                             &trans        &trans        &trans          &trans    &trans    &trans
+            >;
+        };
+
+        layer_3 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans  &trans  &trans    &trans  &trans  &trans
             >;
         };
     };
