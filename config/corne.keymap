@@ -21,6 +21,24 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        Exit_terminal {
+            bindings = <&kp LC(C)>;
+            key-positions = <37 24 27>;
+        };
+    };
+
+    macros {
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp &kp>;
+            label = "NEW_MACRO";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
