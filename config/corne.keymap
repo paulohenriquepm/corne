@@ -28,6 +28,11 @@
             bindings = <&kp LC(C)>;
             key-positions = <37 24 27>;
         };
+
+        Til {
+            bindings = <&kp TILDE>;
+            key-positions = <37 12 20>;
+        };
     };
 
     macros {
