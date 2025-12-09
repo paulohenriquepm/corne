@@ -33,6 +33,11 @@
             bindings = <&kp TILDE>;
             key-positions = <37 12 20>;
         };
+
+        RecordScreen {
+            bindings = <&kp LS(LG(KP_NUMBER_5))>;
+            key-positions = <37 12 17>;
+        };
     };
 
     macros {
